@@ -48,38 +48,37 @@ At present Repository coverage is defined below.
 
 COVERAGE SUMMARY
 02_A_Selenium3_general
-	a_browserTypes_InstantiationObjects
-	b_WebDriver_JavaLogic
-	c_Wait_ImplicitExplicitFluent_ThreadSleep
-	d_WebDriver_methods
-	e_utilities
+-	a_browserTypes_InstantiationObjects
+-	b_WebDriver_JavaLogic
++	c_Wait_ImplicitExplicitFluent_ThreadSleep
++	d_WebDriver_methods
+-	e_utilities
 
 COVERAGE SUMMARY
 02_B_Selenium4_framework
-	a_browserTypes_InstantiationObjects- OK
-	b_Garcia_WebDriverManager- move to obsolete
-	c_mutableCapabilities-ERR (see above)
-	d_wait- OK
-	e_pageLoadStrategy- OK
-	f_proxy- OK
-	g_FileUpload- OK
-	h_Locators- OK, but see ERR above
-	i_Interactions- OK
-	j_Cookies- OK
-	k_WindowHandler- OK
-	l_ScreenShot
-	m_commandExecution
-	n_colour
-	o_Select
-	p_ThreadGuard
-	q_logging
-02_API_WebElement- ERR(Junit 'id')
-02_StopWatchReport_Latency
-02_API_ScreenShot- ERR(Not Mavern but needs to be created as a separate Project, NOT as a package with a project)
-02_API_Select- OK
-02_API_By_findElement
-API_driver_Navigation
-02_API_Keys
++	a_browserTypes_InstantiationObjects- OK
+-	b_Garcia_WebDriverManager- move to obsolete
++	c_mutableCapabilities-ERR (see above)
+-	d_wait- OK
++	e_pageLoadStrategy- OK
++	g_FileUpload- OK
++	h_Locators- OK, but see ERR above
++	i_Interactions- OK
++	j_Cookies- OK
++	k_WindowHandler- OK
+-	l_ScreenShot
+-	m_commandExecution
+-	n_colour
+-	o_Select
+-	p_ThreadGuard
+-	q_logging
++ 02_API_WebElement- ERR(Junit 'id')
++ 02_StopWatchReport_Latency
+- 02_API_ScreenShot- ERR(Not Mavern but needs to be created as a separate Project, NOT as a package with a project)
++ 02_API_Select- OK
++ 02_API_By_findElement
++ API_driver_Navigation
++ 02_API_Keys
 
 COVERAGE SUMMARY of obsolete functionality
 02_X_BrowserType_Depreciated
