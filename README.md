@@ -1,6 +1,10 @@
 # 02_A_Selenium4_JavaDocCoverage
 
 
+Validate Lambda functionality
+Review ERR's
+
+
 Review: ChromeOptions is captured for the CH90 Obsolete runner:-
             See section: d_WebDriver_methods
 
@@ -20,9 +24,3 @@ Validate WAIT functionality using Selenium4 libraries
                     Thread.sleep(10000);
                     } catch (InterruptedException e) {
                     e.printStackTrace();
-
-
-Validate Lambda functionality
-    Review ERR's 
-
-
